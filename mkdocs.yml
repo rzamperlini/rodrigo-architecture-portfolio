@@ -1,8 +1,8 @@
 site_name: Rodrigo Zamperlini | Integration & Solution Architect
 site_description: Portfolio professionnel en architecture de solutions, d'intégration et Power Platform.
-site_url: https://YOUR_GITHUB_USERNAME.github.io/rodrigo-architecture-portfolio/
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/rodrigo-architecture-portfolio
-repo_name: YOUR_GITHUB_USERNAME/rodrigo-architecture-portfolio
+site_url: https://rzamperlini.github.io/rodrigo-architecture-portfolio/
+repo_url: https://github.com/rzamperlini/rodrigo-architecture-portfolio
+repo_name: rzamperlini/rodrigo-architecture-portfolio
 edit_uri: edit/main/docs/
 
 theme:
