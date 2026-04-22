@@ -1,0 +1,67 @@
+site_name: Rodrigo Zamperlini | Integration & Solution Architect
+site_description: Portfolio professionnel en architecture de solutions, d'intégration et Power Platform.
+site_url: https://YOUR_GITHUB_USERNAME.github.io/rodrigo-architecture-portfolio/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/rodrigo-architecture-portfolio
+repo_name: YOUR_GITHUB_USERNAME/rodrigo-architecture-portfolio
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
+
+nav:
+  - Accueil: index.md
+  - Vision d'architecture: architecture-vision.md
+  - Architecture d'intégration: integration-architecture.md
+  - Gouvernance Power Platform: governance-power-platform.md
+  - Données et sécurité: data-security.md
+  - Études de cas:
+      - Impression de chèques: case-studies/check-printing.md
+      - Gestion de dossiers judiciaires: case-studies/judicial-case-management.md
+      - Hub d'intégration: case-studies/integration-hub.md
+  - Prise de décision architecturale: decision-making.md
+  - Leadership et collaboration: leadership-collaboration.md
+  - Articles:
+      - Dataverse vs SharePoint: articles/dataverse-vs-sharepoint.md
+      - Gouvernance Power Platform: articles/power-platform-governance.md
+  - Déploiement GitHub Pages: deployment-guide.md
+  - À propos / contact: contact.md
